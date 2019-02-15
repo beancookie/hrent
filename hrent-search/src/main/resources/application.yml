@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: hrent-search
+  data:
+    mongodb:
+      host: 193.112.33.124
+      authentication-database: hrent
+      database: hrent
+      username: hrent
+      password: hrent
+server:
+  port: 9002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka/
