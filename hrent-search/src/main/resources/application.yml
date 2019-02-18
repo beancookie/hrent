@@ -2,12 +2,9 @@ spring:
   application:
     name: hrent-search
   data:
-    mongodb:
-      host: 193.112.33.124
-      authentication-database: hrent
-      database: hrent
-      username: hrent
-      password: hrent
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 193.112.33.124:9300
 server:
   port: 9002
 eureka:
