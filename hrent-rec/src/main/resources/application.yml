@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: hrent-rec
+server:
+  port: 9002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka/
