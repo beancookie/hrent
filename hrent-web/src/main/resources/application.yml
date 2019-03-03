@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: hrent-web
+  data:
+    mongodb:
+      database: hrent-web
+#  data:
+#    mongodb:
+#      username: hrent
+#      password: hrent
+#      host: localhost
+server:
+  port: 9003
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka/
