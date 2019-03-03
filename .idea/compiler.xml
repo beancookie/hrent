@@ -9,12 +9,14 @@
         <module name="hrent" />
         <module name="hrent-eureka" />
         <module name="hrent-search" />
+        <module name="hrent-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hrent" target="1.5" />
       <module name="hrent-eureka" target="1.8" />
       <module name="hrent-search" target="1.8" />
+      <module name="hrent-web" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

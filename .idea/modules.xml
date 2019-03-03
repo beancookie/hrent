@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hrent.iml" filepath="$PROJECT_DIR$/hrent.iml" />
       <module fileurl="file://$PROJECT_DIR$/hrent-eureka/hrent-eureka.iml" filepath="$PROJECT_DIR$/hrent-eureka/hrent-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hrent-search/hrent-search.iml" filepath="$PROJECT_DIR$/hrent-search/hrent-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrent-rec/hrent-search.iml" filepath="$PROJECT_DIR$/hrent-rec/hrent-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrent-web/hrent-web.iml" filepath="$PROJECT_DIR$/hrent-web/hrent-web.iml" />
     </modules>
   </component>
 </project>
