@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.edu.jit</groupId>
-    <artifactId>hrent-search</artifactId>
+    <artifactId>hrent-rec</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>hrent-search</name>
     <description>hrent-search</description>

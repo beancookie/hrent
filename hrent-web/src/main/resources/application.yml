@@ -1,14 +1,22 @@
 spring:
   application:
     name: hrent-web
+  mail:
+    host: smtp.163.com
+    username: 18705170885@163.com
+    password: cnlz163
+    properties:
+      mail:
+        auth: true
+        starttls:
+          enable: true
+          required: true
   data:
     mongodb:
       database: hrent-web
-#  data:
-#    mongodb:
 #      username: hrent
 #      password: hrent
-#      host: localhost
+      host: 193.112.33.124
 server:
   port: 9003
 eureka:
