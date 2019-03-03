@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hrent.iml" filepath="$PROJECT_DIR$/hrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrent-eureka/hrent-eureka.iml" filepath="$PROJECT_DIR$/hrent-eureka/hrent-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrent-search/hrent-search.iml" filepath="$PROJECT_DIR$/hrent-search/hrent-search.iml" />
+    </modules>
+  </component>
+</project>
