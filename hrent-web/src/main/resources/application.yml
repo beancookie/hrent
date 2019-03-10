@@ -1,6 +1,6 @@
 spring:
   application:
-    name: hrent-web
+    name: web
   mail:
     host: smtp.163.com
     username: 18705170885@163.com
@@ -13,10 +13,7 @@ spring:
           required: true
   data:
     mongodb:
-      database: hrent-web
-#      username: hrent
-#      password: hrent
-      host: 193.112.33.124
+      database: shop_around
 server:
   port: 9003
 eureka:

@@ -1,4 +1,4 @@
-package cn.edu.jit.hrentweb;
+package cn.edu.jit.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

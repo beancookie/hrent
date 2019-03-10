@@ -1,10 +1,9 @@
-package cn.edu.jit.hrentweb.web;
+package cn.edu.jit.web.web;
 
 import static org.hamcrest.Matchers.notNullValue;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 
-import cn.edu.jit.hrentweb.HrentWebApplication;
-import cn.edu.jit.hrentweb.model.entity.User;
+import cn.edu.jit.web.model.entity.User;
 import com.google.gson.Gson;
 import org.junit.After;
 import org.junit.Before;

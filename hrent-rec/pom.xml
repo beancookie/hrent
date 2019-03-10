@@ -11,8 +11,8 @@
     <groupId>cn.edu.jit</groupId>
     <artifactId>hrent-rec</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hrent-search</name>
-    <description>hrent-search</description>
+    <name>hrent-rec</name>
+    <description>hrent-rec</description>
 
     <properties>
         <java.version>1.8</java.version>
