@@ -5,6 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
+
+import java.util.Set;
 
 /**
  * @author LuZhong
@@ -12,14 +15,16 @@ import org.springframework.data.mongodb.core.mapping.Document;
  * @description
  */
 @Data
-@Document(collection = "hrent")
+@Document(collection = "ziroom")
 @AllArgsConstructor
 @NoArgsConstructor
 public class House {
     @Id
     private String id;
     private String title;
-    private String imageUrl;
+    @Field("image_urls")
+    private Set<String> imageUrls;
+    private String url;
     private String price;
     private String detail;
 }

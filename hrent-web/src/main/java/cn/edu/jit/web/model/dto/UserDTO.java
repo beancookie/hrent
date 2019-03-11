@@ -13,7 +13,7 @@ public class UserDTO extends User {
     private String code;
 
     @Transient
-    private String commodityId;
+    private String houseUrl;
 
     @Transient
     private String userId;

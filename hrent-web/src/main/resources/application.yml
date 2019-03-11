@@ -13,7 +13,8 @@ spring:
           required: true
   data:
     mongodb:
-      database: shop_around
+      database: hrent
+      host: 193.112.33.124
 server:
   port: 9003
 eureka:
