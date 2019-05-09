@@ -47,7 +47,7 @@ public class LibrecTest {
         RecommenderContext context = new RecommenderContext(conf, dataModel);
 
         // build similarity
-        conf.set("rec.recommender.similarity.key" ,"item");
+        conf.set("rec.recommender.similarity.key", "item");
         conf.setBoolean("rec.recommender.isranking", true);
         conf.setInt("rec.similarity.shrinkage", 10);
         RecommenderSimilarity similarity = new CosineSimilarity();

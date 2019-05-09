@@ -17,6 +17,7 @@ import java.util.Optional;
 public interface UserRepository extends MongoRepository<User, String> {
     /**
      * 根据昵称查询用户
+     *
      * @param nickname
      * @return
      */
@@ -24,34 +25,31 @@ public interface UserRepository extends MongoRepository<User, String> {
 
     /**
      * 根据昵称删除用户
+     *
      * @param nickname
      * @return
      */
     Optional<User> deleteByNickname(String nickname);
 
     /**
-     *
      * @param email
      * @return
      */
     Optional<User> findByEmail(String email);
 
     /**
-     *
      * @param mobile
      * @return
      */
     Optional<User> findByMobile(String mobile);
 
     /**
-     *
      * @param email
      * @return
      */
     Optional<User> findByEmailAndPassword(String email, String password);
 
     /**
-     *
      * @param mobile
      * @return
      */

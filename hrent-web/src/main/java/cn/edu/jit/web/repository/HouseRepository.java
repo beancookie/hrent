@@ -14,7 +14,6 @@ import java.util.Set;
  */
 public interface HouseRepository extends ReactiveMongoRepository<House, String> {
     /**
-     *
      * @param urls
      * @return
      */

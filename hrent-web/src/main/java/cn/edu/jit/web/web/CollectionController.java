@@ -33,7 +33,6 @@ public class CollectionController {
     private HouseRepository commodityRepository;
 
     /**
-     *
      * @param user
      * @return
      */
@@ -49,7 +48,6 @@ public class CollectionController {
     }
 
     /**
-     *
      * @param user
      * @return
      */
@@ -65,7 +63,6 @@ public class CollectionController {
     }
 
     /**
-     *
      * @param userId
      * @return
      */

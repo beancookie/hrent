@@ -42,10 +42,10 @@ public class EmailServiceImpl implements EmailService {
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
             helper.setFrom(fromUser);
             helper.setTo(toUser.getEmail());
-            helper.setSubject("货比三家注册验证码");
+            helper.setSubject("帮您租注册验证码");
             String code = UUID.randomUUID().toString().substring(0, 6);
             redisTemplate.opsForValue().set(toUser.getEmail(), code, 60, TimeUnit.SECONDS);
-            String sb = "您在货比三家注册验证码为" + code;
+            String sb = "您在帮您租注册验证码为" + code;
             helper.setText(sb);
             mailSender.send(message);
         } catch (MessagingException e) {

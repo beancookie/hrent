@@ -9,6 +9,7 @@ import cn.edu.jit.web.model.entity.User;
 public interface EmailService {
     /**
      * 发送邮件
+     *
      * @param toUser
      */
     void sendCode(User toUser);

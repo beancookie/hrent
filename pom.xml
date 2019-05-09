@@ -12,6 +12,7 @@
         <module>hrent-eureka</module>
         <module>hrent-rec</module>
         <module>hrent-web</module>
+        <module>hrent-core</module>
     </modules>
 
 </project>

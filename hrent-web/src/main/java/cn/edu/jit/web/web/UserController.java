@@ -32,7 +32,6 @@ public class UserController {
 
 
     /**
-     *
      * @param user
      * @return
      */
@@ -58,12 +57,11 @@ public class UserController {
     }
 
     /**
-     *
      * @return
      */
     @GetMapping
     public ResponseEntity<List<User>> findAll() {
-        List<User> users =  userRepository.findAll();
+        List<User> users = userRepository.findAll();
         if (users.size() > 0) {
             return ResponseEntity.ok(users);
         } else {
@@ -72,7 +70,6 @@ public class UserController {
     }
 
     /**
-     *
      * @param id
      * @return
      */
@@ -83,7 +80,6 @@ public class UserController {
     }
 
     /**
-     *
      * @param user
      * @param request
      * @return
@@ -116,7 +112,6 @@ public class UserController {
     }
 
     /**
-     *
      * @param user
      * @return
      */
